@@ -62,11 +62,12 @@ a {
   justify-content: center;
   text-align: center;
   font-size: 16px;
+  letter-spacing: .4px;
   line-height: 24px;
 
   margin-top: 40px;
-  margin-left: 20vw;
-  margin-right: 20vw;
+  margin-left: 22vw;
+  margin-right: 22vw;
 }
 
 h1 {
@@ -75,7 +76,21 @@ h1 {
 }
 
 .p {
+  margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.phighlight {
+  font-size: 28px;
+  line-height: 32px;
+  margin-left: 8vw;
+  margin-right: 8vw;
+}
+
+.emdash {
+  font-size: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 #credit {
@@ -86,7 +101,7 @@ h1 {
 #footer {
   display: flex;
   justify-content: center;
-  font-size: 1.2vw;
+  font-size: 1vw;
   letter-spacing: .08vw;
 
   border-top: 1px solid #171A1F;
